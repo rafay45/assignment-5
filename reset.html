@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <style>
+        body{
+            background-color: rgb(197, 191, 191);
+        }
+        h1{
+          text-decoration: underline 2px;
+        }
+        input{
+          padding: 4px;
+        }
+        button{
+          margin: 40px;
+        }
+    </style>
+</head>
+<body>
+  <center><form action="post">
+    <center><h1>Registration form</h1></center> 
+    <p>
+      <label for="first name">First Name</label>
+      <input type="text" id="first name" name="first name" style="margin-left: 100px;">
+    </p>
+    <p>
+      <label for="last name">Last Name</label>
+      <input type="text" id="last name" name="last name" style="margin-left: 100px;">
+    </p>
+    <p>
+      <label for="nick name">Nick Name</label>
+      <input type="text" id="nick name" name="nick Name name" style="margin-left: 98px;">
+    </p>
+    <p>
+      <label for="email">e-mail</label>
+      <input type="email" id="email" name="email" style="margin-left: 130px;">
+    </p>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" style="margin-left: 110px;">
+    <p><label for="date of birth">Date of Birth</label> 
+    <input type="text" name="date of birth" id="date of birth"  style="margin-left: 87px;">
+  </p>
+  <p>
+   <label for="gender">Gender</label>
+   <label for="male" style="margin-left: 100px;">Male</label>
+   <input type="radio" name="gender" id="male" value="male">
+   <label for="female">Female</label>
+   <input type="radio" name="gender" id="female" value="female">
+   <label for="other">Other</label>
+   <input type="radio" name="gender" id="other" value="female"> 
+  </p>
+  <p>
+    <label for="mobile">Mobile</label>
+    <input type="number" name="mobile" id="mobile" style="margin-left: 120px;">
+  </p>
+  <p>
+    <label for="address">Address</label>
+    <textarea name="address" id="address" style="margin-left: 120px; padding: 20px;"></textarea>
+  </p>
+  <button>submit</button>
+  <button><a href="reset.html" style="color: black;">reset</a></button>
+  </form>
+</center>
+</body>
+</html>
